@@ -21,9 +21,18 @@ while command != "quit":
             print("Car stopped.")
     elif user_input == "quit":
         break
+
+    elif user_input == "help":
+        print("""
+this is the help menu: \n
+start - to start the car
+stop - to stop the car
+quit - to exit
+        """)
     else:
         print("I don't understand that...")
 
     command = user_input
     user_input = input("\nType start, stop or quit: \n").lower()
+
 
