@@ -8,3 +8,8 @@ for row_index in range(len(numbers)):
     print()  # to move to the next line after each row
 
 print("\nEND\n")
+
+print("Anther example of quickly showing the F\n")
+
+for item in numbers:
+    print("X" * item)  # prints 'X' repeated 'item' times
