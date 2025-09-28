@@ -13,7 +13,7 @@ def printer(args):
     print(f"The sun of the ASCII values in {args} is {summing_string(args)}")
 
 
-for i in (fruit):
+for i in fruit:
     print(i)
 
 # for i in fruit:

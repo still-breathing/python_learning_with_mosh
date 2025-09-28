@@ -1,5 +1,5 @@
 # learning functions
-# The can be two types of functions,
+# There can be two types of functions,
 # One performs a task and the other returns a value
 
 # Example of a function that performs a task
