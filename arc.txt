@@ -1,0 +1,29 @@
+VS Code Ecosystem:
+│
+├── EDITING ENVIRONMENT (settings.json)
+│   ├── Needs: Python path for IntelliSense  
+│   ├── Timing: Always active
+│   └── Controls: Autocomplete, import resolution, errors
+│
+├── TERMINAL ENVIRONMENT (settings.json) 
+│   ├── Needs: Python path for commands
+│   ├── Timing: When terminal opens
+│   └── Controls: `python script.py`, `pip install`
+│
+└── DEBUG ENVIRONMENT (launch.json)
+    ├── Needs: Python path + debug config
+    ├── Timing: Only during F5 debugging  
+    └── Controls: Breakpoints, step-through, variables
+
+
+python_learning/
+├── .vscode/           ← IDE config
+├── matikata/          ← Venv (ignored)
+├── src/               ← Your main code
+│   └── __init__.py
+├── tests/             ← Test files
+│   └── __init__.py
+├── docs/              ← Learning notes
+├── .gitignore         ← matikata/, __pycache__/
+├── requirements.txt   ← Dependencies list
+└── README.md          ← Project notes
