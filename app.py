@@ -16,7 +16,7 @@ message = (
     f"***  My first cat was {cat_one} \nMy second cat was {cat_two}\nMy last one was {cat_three}\n Trick question which cat was my favorite the length of the name is {len(cat_three)}  ***")
 
 print(message.strip())
-# any valid expression can be added in in between {} when f string is used so {2+2} will show 4
+# any valid expression can be added in between {} when f string is used so {2+2} will show 4
 
 print(cat_three.upper())
 
